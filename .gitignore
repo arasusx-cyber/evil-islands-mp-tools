@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+/check_mp
+/check_mp.exe
+*.raw
+/exports/
+/dist/*.zip
+/GAME.EXE
+/GAME_ORIGINAL.EXE
