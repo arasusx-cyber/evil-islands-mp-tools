@@ -1,0 +1,29 @@
+name: Editor checks
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7.1.0
+        with:
+          python-version: '3.11'
+      - name: Check Python syntax
+        run: python -m py_compile editor.py mp_core.py Edytor_MP.pyw scripts/build_packages.py
+      - name: Run MP editor tests
+        run: python -m unittest discover -s tests -v
+      - name: Check examples with the C++ reference codec
+        run: |
+          g++ -std=c++17 -O2 reference/check_reference.cpp -o "$RUNNER_TEMP/check_mp"
+          "$RUNNER_TEMP/check_mp" examples/9.mp "$RUNNER_TEMP/9.raw"
+          "$RUNNER_TEMP/check_mp" examples/10.mp "$RUNNER_TEMP/10.raw"
