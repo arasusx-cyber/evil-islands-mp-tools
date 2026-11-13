@@ -2,6 +2,10 @@
 
 Edytor postaci multiplayer `.mp` do **Evil Islands: Klątwa Zagubionej Duszy** oraz `GAME.EXE` z PvP i kodami w multiplayerze.
 
+**[⬇ Pobierz GAME.EXE z rozszerzonym kreatorem MP](https://github.com/arasusx-cyber/evil-islands-mp-tools/releases/download/v1.0.0/Evil_Islands_1.06_PvP_Kody_Kreator.zip)** · [Instrukcja i suma kontrolna](docs/EXE.md#wariant-z-rozszerzonym-kreatorem-mp)
+
+Osobny wariant GAME.EXE z PvP i konsolą kodów. W kreatorze postaci multiplayer podnosi limit wzrostu do **1000** i daje **75 dodatkowych punktów** na siłę, zręczność i inteligencję.
+
 **[⬇ Pobierz edytor MP](https://github.com/arasusx-cyber/evil-islands-mp-tools/releases/latest/download/Evil_Islands_MP_Editor_Python.zip)** · **[⬇ Pobierz GAME.EXE — PvP i kody](https://github.com/arasusx-cyber/evil-islands-mp-tools/releases/latest/download/Evil_Islands_PvP_kody.zip)** · [English](README.en.md)
 
 ## Edytor MP
