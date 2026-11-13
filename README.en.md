@@ -43,3 +43,9 @@ python -m unittest discover -s tests -v
 [Development and packaging](docs/DEVELOPMENT.md) · [Validation scope](docs/VALIDATION.md) · [Sources and licensing](NOTICE.md)
 
 Editor code is GPL-3.0-or-later. The editor's licence does not apply to the game's executable.
+
+## Expanded MP character creator variant
+
+This package includes PvP and multiplayer console commands. New characters can have a height of up to **1000** and get **75 extra points** to distribute among Strength, Dexterity, and Intelligence. Each attribute starts at 25. The total is 150, with a cap of 75 per attribute.
+
+**[Download GAME.EXE with the expanded creator](https://github.com/arasusx-cyber/evil-islands-mp-tools/releases/download/v1.0.0/Evil_Islands_1.06_PvP_Kody_Kreator.zip)**
