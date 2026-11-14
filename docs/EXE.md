@@ -64,3 +64,17 @@ Wariant dla Evil Islands 1.06 zawiera PvP, kody i rozszerzony kreator postaci mu
 | GAME.EXE z kreatorem | `ca6a5249a93b5e05f17f3d642dcab0b49795b53230b4514e64c4af8d57a54ffb` |
 
 Sprawdzono fragmenty kodu x86 obsługujące wzrost i zatwierdzanie atrybutów oraz zapis wartości na przykładowych plikach `.mp`. Pełny test w grze pod Windows pozostaje do wykonania.
+
+
+## Wariant z regulacją sylwetki
+
+[Pobierz ZIP z regulacją sylwetki](https://github.com/arasusx-cyber/evil-islands-mp-tools/releases/download/v1.0.0/Evil_Islands_1.06_PvP_Kody_Kreator_Sylwetka.zip)
+
+Ten wariant dla Evil Islands 1.06 dodaje pod ustawieniem wzrostu wiersze **Muskulatura** i **Szczuplosc**. Przyciski `−/+` zmieniają każdą wartość o 5 w zakresie 0–100. Zmiany widać w podglądzie i gra zapisuje je w pliku `.mp`. Punkty siły, zręczności i inteligencji rozdziela się osobno.
+
+Działanie przycisków potwierdzono w grze pod Windows. Znaki `−/+` są widoczne bez osobnego tła graficznego.
+
+| Plik | SHA-256 |
+| --- | --- |
+| ZIP z regulacją sylwetki | `3e13e9f8df8244ba206eae6775db90e5847870fe2bccd33d716e9d2e3ea2d650` |
+| GAME.EXE z regulacją sylwetki | `203b28f5b86d6d3ba0966a9fe33ab7cea40c36743c5f9260347b83da3ee64617` |
