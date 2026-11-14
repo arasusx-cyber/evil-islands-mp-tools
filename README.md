@@ -2,6 +2,10 @@
 
 Edytor postaci multiplayer `.mp` do **Evil Islands: Klątwa Zagubionej Duszy** oraz `GAME.EXE` z PvP i kodami w multiplayerze.
 
+**[⬇ Pobierz GAME.EXE z panelem Sylwetka i ruch](https://github.com/arasusx-cyber/evil-islands-mp-tools/releases/download/v1.0.0/Evil_Islands_1.06_PvP_Kody_Kreator_Ruch_None.zip)** · [Zmiany i zrzut ekranu](https://github.com/arasusx-cyber/evil-islands-mp-tools/releases/tag/v1.0.0)
+
+W kreatorze MP ustawisz wysokość do **700** i prędkość od **50% do 1000%**. W prawym panelu są też przełącznik chodzenia i lewitacji, regulacja sylwetki i opcja **Części ciała: None**.
+
 **[⬇ Pobierz GAME.EXE z rozszerzonym kreatorem MP](https://github.com/arasusx-cyber/evil-islands-mp-tools/releases/download/v1.0.0/Evil_Islands_1.06_PvP_Kody_Kreator.zip)** · [Instrukcja i suma kontrolna](docs/EXE.md#wariant-z-rozszerzonym-kreatorem-mp)
 
 Osobny wariant GAME.EXE z PvP i konsolą kodów. W kreatorze postaci multiplayer podnosi limit wzrostu do **1000** i daje **75 dodatkowych punktów** na siłę, zręczność i inteligencję.
